@@ -24,7 +24,7 @@ namespace FlowDiagrams
         public MainWindow()
         {
             InitializeComponent();
-            MainCanvas.MouseRightButtonDown += MainCanvas_MouseRightButtonDown;
+            MouseRightButtonDown += MainCanvas_MouseRightButtonDown;
         }
 
         private void MainCanvas_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
